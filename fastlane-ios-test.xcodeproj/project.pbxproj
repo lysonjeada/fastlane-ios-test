@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		24D89CC82CA7240000995945 /* fastlane_ios_testApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D89CC72CA7240000995945 /* fastlane_ios_testApp.swift */; };
+		24D89CCA2CA7240000995945 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D89CC92CA7240000995945 /* ContentView.swift */; };
+		24D89CCC2CA7240300995945 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24D89CCB2CA7240300995945 /* Assets.xcassets */; };
+		24D89CCF2CA7240300995945 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24D89CCE2CA7240300995945 /* Preview Assets.xcassets */; };
+		24D89CD92CA7240300995945 /* fastlane_ios_testTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D89CD82CA7240300995945 /* fastlane_ios_testTests.swift */; };
+		24D89CE32CA7240300995945 /* fastlane_ios_testUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D89CE22CA7240300995945 /* fastlane_ios_testUITests.swift */; };
+		24D89CE52CA7240300995945 /* fastlane_ios_testUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D89CE42CA7240300995945 /* fastlane_ios_testUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		24D89CD52CA7240300995945 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 24D89CBC2CA7240000995945 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 24D89CC32CA7240000995945;
+			remoteInfo = "fastlane-ios-test";
+		};
+		24D89CDF2CA7240300995945 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 24D89CBC2CA7240000995945 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 24D89CC32CA7240000995945;
+			remoteInfo = "fastlane-ios-test";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		24D89CC42CA7240000995945 /* fastlane-ios-test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "fastlane-ios-test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		24D89CC72CA7240000995945 /* fastlane_ios_testApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fastlane_ios_testApp.swift; sourceTree = "<group>"; };
+		24D89CC92CA7240000995945 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		24D89CCB2CA7240300995945 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		24D89CCE2CA7240300995945 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		24D89CD42CA7240300995945 /* fastlane-ios-testTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "fastlane-ios-testTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		24D89CD82CA7240300995945 /* fastlane_ios_testTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fastlane_ios_testTests.swift; sourceTree = "<group>"; };
+		24D89CDE2CA7240300995945 /* fastlane-ios-testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "fastlane-ios-testUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		24D89CE22CA7240300995945 /* fastlane_ios_testUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fastlane_ios_testUITests.swift; sourceTree = "<group>"; };
+		24D89CE42CA7240300995945 /* fastlane_ios_testUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fastlane_ios_testUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		24D89CC12CA7240000995945 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24D89CD12CA7240300995945 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24D89CDB2CA7240300995945 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		24D89CBB2CA7240000995945 = {
+			isa = PBXGroup;
+			children = (
+				24D89CC62CA7240000995945 /* fastlane-ios-test */,
+				24D89CD72CA7240300995945 /* fastlane-ios-testTests */,
+				24D89CE12CA7240300995945 /* fastlane-ios-testUITests */,
+				24D89CC52CA7240000995945 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		24D89CC52CA7240000995945 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				24D89CC42CA7240000995945 /* fastlane-ios-test.app */,
+				24D89CD42CA7240300995945 /* fastlane-ios-testTests.xctest */,
+				24D89CDE2CA7240300995945 /* fastlane-ios-testUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		24D89CC62CA7240000995945 /* fastlane-ios-test */ = {
+			isa = PBXGroup;
+			children = (
+				24D89CC72CA7240000995945 /* fastlane_ios_testApp.swift */,
+				24D89CC92CA7240000995945 /* ContentView.swift */,
+				24D89CCB2CA7240300995945 /* Assets.xcassets */,
+				24D89CCD2CA7240300995945 /* Preview Content */,
+			);
+			path = "fastlane-ios-test";
+			sourceTree = "<group>";
+		};
+		24D89CCD2CA7240300995945 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				24D89CCE2CA7240300995945 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		24D89CD72CA7240300995945 /* fastlane-ios-testTests */ = {
+			isa = PBXGroup;
+			children = (
+				24D89CD82CA7240300995945 /* fastlane_ios_testTests.swift */,
+			);
+			path = "fastlane-ios-testTests";
+			sourceTree = "<group>";
+		};
+		24D89CE12CA7240300995945 /* fastlane-ios-testUITests */ = {
+			isa = PBXGroup;
+			children = (
+				24D89CE22CA7240300995945 /* fastlane_ios_testUITests.swift */,
+				24D89CE42CA7240300995945 /* fastlane_ios_testUITestsLaunchTests.swift */,
+			);
+			path = "fastlane-ios-testUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		24D89CC32CA7240000995945 /* fastlane-ios-test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24D89CE82CA7240300995945 /* Build configuration list for PBXNativeTarget "fastlane-ios-test" */;
+			buildPhases = (
+				24D89CC02CA7240000995945 /* Sources */,
+				24D89CC12CA7240000995945 /* Frameworks */,
+				24D89CC22CA7240000995945 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "fastlane-ios-test";
+			productName = "fastlane-ios-test";
+			productReference = 24D89CC42CA7240000995945 /* fastlane-ios-test.app */;
+			productType = "com.apple.product-type.application";
+		};
+		24D89CD32CA7240300995945 /* fastlane-ios-testTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24D89CEB2CA7240300995945 /* Build configuration list for PBXNativeTarget "fastlane-ios-testTests" */;
+			buildPhases = (
+				24D89CD02CA7240300995945 /* Sources */,
+				24D89CD12CA7240300995945 /* Frameworks */,
+				24D89CD22CA7240300995945 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				24D89CD62CA7240300995945 /* PBXTargetDependency */,
+			);
+			name = "fastlane-ios-testTests";
+			productName = "fastlane-ios-testTests";
+			productReference = 24D89CD42CA7240300995945 /* fastlane-ios-testTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		24D89CDD2CA7240300995945 /* fastlane-ios-testUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24D89CEE2CA7240300995945 /* Build configuration list for PBXNativeTarget "fastlane-ios-testUITests" */;
+			buildPhases = (
+				24D89CDA2CA7240300995945 /* Sources */,
+				24D89CDB2CA7240300995945 /* Frameworks */,
+				24D89CDC2CA7240300995945 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				24D89CE02CA7240300995945 /* PBXTargetDependency */,
+			);
+			name = "fastlane-ios-testUITests";
+			productName = "fastlane-ios-testUITests";
+			productReference = 24D89CDE2CA7240300995945 /* fastlane-ios-testUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		24D89CBC2CA7240000995945 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					24D89CC32CA7240000995945 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					24D89CD32CA7240300995945 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 24D89CC32CA7240000995945;
+					};
+					24D89CDD2CA7240300995945 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 24D89CC32CA7240000995945;
+					};
+				};
+			};
+			buildConfigurationList = 24D89CBF2CA7240000995945 /* Build configuration list for PBXProject "fastlane-ios-test" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 24D89CBB2CA7240000995945;
+			productRefGroup = 24D89CC52CA7240000995945 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				24D89CC32CA7240000995945 /* fastlane-ios-test */,
+				24D89CD32CA7240300995945 /* fastlane-ios-testTests */,
+				24D89CDD2CA7240300995945 /* fastlane-ios-testUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		24D89CC22CA7240000995945 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24D89CCF2CA7240300995945 /* Preview Assets.xcassets in Resources */,
+				24D89CCC2CA7240300995945 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24D89CD22CA7240300995945 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24D89CDC2CA7240300995945 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		24D89CC02CA7240000995945 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24D89CCA2CA7240000995945 /* ContentView.swift in Sources */,
+				24D89CC82CA7240000995945 /* fastlane_ios_testApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24D89CD02CA7240300995945 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24D89CD92CA7240300995945 /* fastlane_ios_testTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24D89CDA2CA7240300995945 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24D89CE52CA7240300995945 /* fastlane_ios_testUITestsLaunchTests.swift in Sources */,
+				24D89CE32CA7240300995945 /* fastlane_ios_testUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		24D89CD62CA7240300995945 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 24D89CC32CA7240000995945 /* fastlane-ios-test */;
+			targetProxy = 24D89CD52CA7240300995945 /* PBXContainerItemProxy */;
+		};
+		24D89CE02CA7240300995945 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 24D89CC32CA7240000995945 /* fastlane-ios-test */;
+			targetProxy = 24D89CDF2CA7240300995945 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		24D89CE62CA7240300995945 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		24D89CE72CA7240300995945 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		24D89CE92CA7240300995945 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"fastlane-ios-test/Preview Content\"";
+				DEVELOPMENT_TEAM = Y9Y27K9ZT7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.lys.fastlane-ios-test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		24D89CEA2CA7240300995945 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"fastlane-ios-test/Preview Content\"";
+				DEVELOPMENT_TEAM = Y9Y27K9ZT7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.lys.fastlane-ios-test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		24D89CEC2CA7240300995945 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y9Y27K9ZT7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.lys.fastlane-ios-testTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fastlane-ios-test.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/fastlane-ios-test";
+			};
+			name = Debug;
+		};
+		24D89CED2CA7240300995945 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y9Y27K9ZT7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.lys.fastlane-ios-testTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fastlane-ios-test.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/fastlane-ios-test";
+			};
+			name = Release;
+		};
+		24D89CEF2CA7240300995945 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y9Y27K9ZT7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.lys.fastlane-ios-testUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "fastlane-ios-test";
+			};
+			name = Debug;
+		};
+		24D89CF02CA7240300995945 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y9Y27K9ZT7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.lys.fastlane-ios-testUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "fastlane-ios-test";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		24D89CBF2CA7240000995945 /* Build configuration list for PBXProject "fastlane-ios-test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24D89CE62CA7240300995945 /* Debug */,
+				24D89CE72CA7240300995945 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24D89CE82CA7240300995945 /* Build configuration list for PBXNativeTarget "fastlane-ios-test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24D89CE92CA7240300995945 /* Debug */,
+				24D89CEA2CA7240300995945 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24D89CEB2CA7240300995945 /* Build configuration list for PBXNativeTarget "fastlane-ios-testTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24D89CEC2CA7240300995945 /* Debug */,
+				24D89CED2CA7240300995945 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24D89CEE2CA7240300995945 /* Build configuration list for PBXNativeTarget "fastlane-ios-testUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24D89CEF2CA7240300995945 /* Debug */,
+				24D89CF02CA7240300995945 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 24D89CBC2CA7240000995945 /* Project object */;
+}
