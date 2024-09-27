@@ -3,9 +3,11 @@ on:
   pull_request
       
 jobs:
-  hello:
-    name: Hello World
+  check_code:
     runs-on: ubuntu-latest
     steps:
-    - name: Say Hello
-      run: echo Hello World
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Github Action for SwiftLint
+        uses: norio-nomura/action-swiftlint@3.2.1
