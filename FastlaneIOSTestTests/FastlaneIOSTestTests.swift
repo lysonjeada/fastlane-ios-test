@@ -1,14 +1,14 @@
 //
-//  fastlane_ios_testTests.swift
+//  FastlaneIOSTestTests.swift
 //  fastlane-ios-testTests
 //
 //  Created by Amaryllis Rosemaria Baldrez Calefi on 27/09/24.
 //
 
 import XCTest
-@testable import fastlane_ios_test
+@testable import FastlaneIOSTest
 
-final class fastlane_ios_testTests: XCTestCase {
+final class FastlaneIOSTestTests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

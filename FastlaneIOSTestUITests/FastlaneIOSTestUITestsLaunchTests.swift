@@ -1,5 +1,5 @@
 //
-//  fastlane_ios_testUITestsLaunchTests.swift
+//  FastlaneIOSTestUITestsLaunchTests.swift
 //  fastlane-ios-testUITests
 //
 //  Created by Amaryllis Rosemaria Baldrez Calefi on 27/09/24.
@@ -7,7 +7,7 @@
 
 import XCTest
 
-final class fastlane_ios_testUITestsLaunchTests: XCTestCase {
+final class FastlaneIOSTestUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true
