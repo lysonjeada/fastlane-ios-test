@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		24D89CC82CA7240000995945 /* fastlane_ios_testApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D89CC72CA7240000995945 /* fastlane_ios_testApp.swift */; };
+		24D6B2722CAB5290002D2024 /* FastlaneIOSTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D6B2712CAB5290002D2024 /* FastlaneIOSTestUITests.swift */; };
+		24D6B2742CAB52C7002D2024 /* FastlaneIOSTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D6B2732CAB52C7002D2024 /* FastlaneIOSTestUITestsLaunchTests.swift */; };
+		24D6B2762CAB5303002D2024 /* FastlaneIOSTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D6B2752CAB5303002D2024 /* FastlaneIOSTestApp.swift */; };
 		24D89CCA2CA7240000995945 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D89CC92CA7240000995945 /* ContentView.swift */; };
 		24D89CCC2CA7240300995945 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24D89CCB2CA7240300995945 /* Assets.xcassets */; };
 		24D89CCF2CA7240300995945 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24D89CCE2CA7240300995945 /* Preview Assets.xcassets */; };
-		24D89CD92CA7240300995945 /* fastlane_ios_testTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D89CD82CA7240300995945 /* fastlane_ios_testTests.swift */; };
-		24D89CE32CA7240300995945 /* fastlane_ios_testUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D89CE22CA7240300995945 /* fastlane_ios_testUITests.swift */; };
-		24D89CE52CA7240300995945 /* fastlane_ios_testUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D89CE42CA7240300995945 /* fastlane_ios_testUITestsLaunchTests.swift */; };
+		24D89CD92CA7240300995945 /* FastlaneIOSTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D89CD82CA7240300995945 /* FastlaneIOSTestTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -22,28 +22,28 @@
 			containerPortal = 24D89CBC2CA7240000995945 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 24D89CC32CA7240000995945;
-			remoteInfo = "FastlaneIOSTest";
+			remoteInfo = FastlaneIOSTest;
 		};
 		24D89CDF2CA7240300995945 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 24D89CBC2CA7240000995945 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 24D89CC32CA7240000995945;
-			remoteInfo = "FastlaneIOSTest";
+			remoteInfo = FastlaneIOSTest;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		24D89CC42CA7240000995945 /* FastlaneIOSTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FastlaneIOSTest.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		24D89CC72CA7240000995945 /* fastlane_ios_testApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fastlane_ios_testApp.swift; sourceTree = "<group>"; };
+		24D6B2712CAB5290002D2024 /* FastlaneIOSTestUITests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FastlaneIOSTestUITests.swift; sourceTree = "<group>"; };
+		24D6B2732CAB52C7002D2024 /* FastlaneIOSTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FastlaneIOSTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		24D6B2752CAB5303002D2024 /* FastlaneIOSTestApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FastlaneIOSTestApp.swift; sourceTree = "<group>"; };
+		24D89CC42CA7240000995945 /* FastlaneIOSTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FastlaneIOSTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		24D89CC92CA7240000995945 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		24D89CCB2CA7240300995945 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		24D89CCE2CA7240300995945 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		24D89CD42CA7240300995945 /* FastlaneIOSTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FastlaneIOSTestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		24D89CD82CA7240300995945 /* fastlane_ios_testTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fastlane_ios_testTests.swift; sourceTree = "<group>"; };
-		24D89CDE2CA7240300995945 /* FastlaneIOSTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FastlaneIOSTestUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		24D89CE22CA7240300995945 /* fastlane_ios_testUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fastlane_ios_testUITests.swift; sourceTree = "<group>"; };
-		24D89CE42CA7240300995945 /* fastlane_ios_testUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fastlane_ios_testUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		24D89CD42CA7240300995945 /* FastlaneIOSTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FastlaneIOSTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		24D89CD82CA7240300995945 /* FastlaneIOSTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FastlaneIOSTestTests.swift; sourceTree = "<group>"; };
+		24D89CDE2CA7240300995945 /* FastlaneIOSTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FastlaneIOSTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,12 +94,12 @@
 		24D89CC62CA7240000995945 /* FastlaneIOSTest */ = {
 			isa = PBXGroup;
 			children = (
-				24D89CC72CA7240000995945 /* fastlane_ios_testApp.swift */,
+				24D6B2752CAB5303002D2024 /* FastlaneIOSTestApp.swift */,
 				24D89CC92CA7240000995945 /* ContentView.swift */,
 				24D89CCB2CA7240300995945 /* Assets.xcassets */,
 				24D89CCD2CA7240300995945 /* Preview Content */,
 			);
-			path = "FastlaneIOSTest";
+			path = FastlaneIOSTest;
 			sourceTree = "<group>";
 		};
 		24D89CCD2CA7240300995945 /* Preview Content */ = {
@@ -113,18 +113,18 @@
 		24D89CD72CA7240300995945 /* FastlaneIOSTestTests */ = {
 			isa = PBXGroup;
 			children = (
-				24D89CD82CA7240300995945 /* fastlane_ios_testTests.swift */,
+				24D89CD82CA7240300995945 /* FastlaneIOSTestTests.swift */,
 			);
-			path = "FastlaneIOSTestTests";
+			path = FastlaneIOSTestTests;
 			sourceTree = "<group>";
 		};
 		24D89CE12CA7240300995945 /* FastlaneIOSTestUITests */ = {
 			isa = PBXGroup;
 			children = (
-				24D89CE22CA7240300995945 /* fastlane_ios_testUITests.swift */,
-				24D89CE42CA7240300995945 /* fastlane_ios_testUITestsLaunchTests.swift */,
+				24D6B2732CAB52C7002D2024 /* FastlaneIOSTestUITestsLaunchTests.swift */,
+				24D6B2712CAB5290002D2024 /* FastlaneIOSTestUITests.swift */,
 			);
-			path = "FastlaneIOSTestUITests";
+			path = FastlaneIOSTestUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,8 +142,8 @@
 			);
 			dependencies = (
 			);
-			name = "FastlaneIOSTest";
-			productName = "FastlaneIOSTest";
+			name = FastlaneIOSTest;
+			productName = FastlaneIOSTest;
 			productReference = 24D89CC42CA7240000995945 /* FastlaneIOSTest.app */;
 			productType = "com.apple.product-type.application";
 		};
@@ -160,8 +160,8 @@
 			dependencies = (
 				24D89CD62CA7240300995945 /* PBXTargetDependency */,
 			);
-			name = "FastlaneIOSTestTests";
-			productName = "FastlaneIOSTestTests";
+			name = FastlaneIOSTestTests;
+			productName = FastlaneIOSTestTests;
 			productReference = 24D89CD42CA7240300995945 /* FastlaneIOSTestTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
@@ -178,8 +178,8 @@
 			dependencies = (
 				24D89CE02CA7240300995945 /* PBXTargetDependency */,
 			);
-			name = "FastlaneIOSTestUITests";
-			productName = "FastlaneIOSTestUITests";
+			name = FastlaneIOSTestUITests;
+			productName = FastlaneIOSTestUITests;
 			productReference = 24D89CDE2CA7240300995945 /* FastlaneIOSTestUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
@@ -257,8 +257,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24D6B2762CAB5303002D2024 /* FastlaneIOSTestApp.swift in Sources */,
 				24D89CCA2CA7240000995945 /* ContentView.swift in Sources */,
-				24D89CC82CA7240000995945 /* fastlane_ios_testApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,7 +266,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				24D89CD92CA7240300995945 /* fastlane_ios_testTests.swift in Sources */,
+				24D89CD92CA7240300995945 /* FastlaneIOSTestTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,8 +274,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				24D89CE52CA7240300995945 /* fastlane_ios_testUITestsLaunchTests.swift in Sources */,
-				24D89CE32CA7240300995945 /* fastlane_ios_testUITests.swift in Sources */,
+				24D6B2722CAB5290002D2024 /* FastlaneIOSTestUITests.swift in Sources */,
+				24D6B2742CAB52C7002D2024 /* FastlaneIOSTestUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,7 +435,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "br.com.lys.FastlaneIOSTest";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.lys.FastlaneIOSTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -464,7 +464,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "br.com.lys.FastlaneIOSTest";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.lys.FastlaneIOSTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -483,7 +483,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "br.com.lys.FastlaneIOSTestTests";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.lys.FastlaneIOSTestTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -503,7 +503,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "br.com.lys.FastlaneIOSTestTests";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.lys.FastlaneIOSTestTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -521,12 +521,12 @@
 				DEVELOPMENT_TEAM = Y9Y27K9ZT7;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "br.com.lys.FastlaneIOSTestUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.lys.FastlaneIOSTestUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "FastlaneIOSTest";
+				TEST_TARGET_NAME = FastlaneIOSTest;
 			};
 			name = Debug;
 		};
@@ -539,12 +539,12 @@
 				DEVELOPMENT_TEAM = Y9Y27K9ZT7;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "br.com.lys.FastlaneIOSTestUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.lys.FastlaneIOSTestUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "FastlaneIOSTest";
+				TEST_TARGET_NAME = FastlaneIOSTest;
 			};
 			name = Release;
 		};
