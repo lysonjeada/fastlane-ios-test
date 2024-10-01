@@ -21,8 +21,13 @@ jobs:
         uses: norio-nomura/action-swiftlint@3.2.1
 
   unit_test:
-    runs-on: ubuntu-latest
+    runs-on: macos-14
     steps:
+      - name: Setup xcode version
+        uses: maxim-lobanov/setup-xcode@v1
+        with:
+          xcode-version: "15.0"
+
       - name: Checkout Repository
         uses: actions/checkout@v3
 
