@@ -1,4 +1,4 @@
-app_identifier "br.com.lys.fastlane-ios-test" # The bundle identifier of your app
+app_identifier "br.com.lys.FastlaneIOSTest" # The bundle identifier of your app
 apple_id "lysbaldrez@icloud.com" # Your Apple Developer Portal username
 
 # For more information about the Appfile, see:
