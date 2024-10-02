@@ -1,8 +1,25 @@
 default_platform(:ios)
 
 platform :ios do
-  desc "Runs the tests"
-  lane :tests do
-    scan
+  desc "Builds the app and pushes to TestFlight"
+  lane :beta do
+    # Step 1: Increment build number
+    increment_build_number(
+      xcodeproj: "FastlaneIOSTest.xcodeproj"
+    )
+
+    # Step 2: Build the app (Gym is the Fastlane tool to build the app)
+    gym(
+      scheme: "FastlaneIOSTest",                  # Substitua pelo nome do esquema (scheme) do seu projeto
+      export_method: "app-store",          # Defina o método de exportação como app-store para TestFlight
+      clean: true                          # Limpa os artefatos anteriores para garantir um build limpo
+    )
+
+    # Step 3: Upload to TestFlight
+    pilot(
+      skip_waiting_for_build_processing: true, # Pula o tempo de processamento da App Store
+      notify_external_testers: true            # Notifica testadores externos automaticamente
+    )
   end
 end
+
