@@ -1,11 +1,20 @@
 default_platform(:ios)
 
 platform :ios do
+  desc "Run iOS tests"
+    lane :ios_tests do
+      run_tests(
+      scheme: "FastlaneIOSTest",  # Replace with your scheme
+      devices: ["iPhone 14"],   # Specify your target devices
+      clean: true              # Optional: clean the project before testing
+    )
+  end
+
   desc "Builds the app and pushes to TestFlight"
-  lane :beta do
-    # Step 1: Increment build number
-    increment_build_number(
-      xcodeproj: "FastlaneIOSTest.xcodeproj"
+    lane :beta do
+      # Step 1: Increment build number
+      increment_build_number(
+        xcodeproj: "FastlaneIOSTest.xcodeproj"
     )
 
     # Step 2: Build the app (Gym is the Fastlane tool to build the app)
