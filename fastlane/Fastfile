@@ -1,23 +1,34 @@
-# This file contains the fastlane.tools configuration
-# You can find the documentation at https://docs.fastlane.tools
-#
-# For a list of all available actions, check out
-#
-#     https://docs.fastlane.tools/actions
-#
-# For a list of all available plugins, check out
-#
-#     https://docs.fastlane.tools/plugins/available-plugins
-#
-
-# Uncomment the line if you want fastlane to automatically update itself
-# update_fastlane
-
 default_platform(:ios)
 
 platform :ios do
-  desc "Description of what the lane does"
-  lane :custom_lane do
-    # add actions here: https://docs.fastlane.tools/actions
+  desc "Run iOS tests"
+    lane :tests do
+      run_tests(
+      scheme: "FastlaneIOSTest",  # Replace with your scheme
+      devices: ["iPhone 14"],   # Specify your target devices
+      clean: true              # Optional: clean the project before testing
+    )
+  end
+
+  desc "Builds the app and pushes to TestFlight"
+    lane :beta do
+      # Step 1: Increment build number
+      increment_build_number(
+        xcodeproj: "FastlaneIOSTest.xcodeproj"
+    )
+
+    # Step 2: Build the app (Gym is the Fastlane tool to build the app)
+    gym(
+      scheme: "FastlaneIOSTest",                  # Substitua pelo nome do esquema (scheme) do seu projeto
+      export_method: "app-store",          # Defina o método de exportação como app-store para TestFlight
+      clean: true                          # Limpa os artefatos anteriores para garantir um build limpo
+    )
+
+    # Step 3: Upload to TestFlight
+    pilot(
+      skip_waiting_for_build_processing: true, # Pula o tempo de processamento da App Store
+      notify_external_testers: true            # Notifica testadores externos automaticamente
+    )
   end
 end
+

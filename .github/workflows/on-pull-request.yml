@@ -1,7 +1,7 @@
 name: Run CI
 on:
   pull_request
-      
+
 jobs:
   check_code:
     runs-on: ubuntu-latest
@@ -9,5 +9,36 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v3
 
-      - name: Github Action for SwiftLint
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 3.0  # ou a versão necessária para o seu projeto
+
+      - name: Install Dependencies
+        run: bundle install
+
+      - name: Run SwiftLint
         uses: norio-nomura/action-swiftlint@3.2.1
+
+  unit_test:
+    runs-on: macos-14
+    steps:
+      - name: Setup xcode version
+        uses: maxim-lobanov/setup-xcode@v1
+        with:
+          xcode-version: "15.0"
+
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 3.0  # ou a versão necessária para o seu projeto
+
+      - name: Install Dependencies
+        run: bundle install
+
+      - name: Unit Testing
+        run: bundle exec fastlane tests
+
